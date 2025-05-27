@@ -1,8 +1,9 @@
 {
   "navbar": {
-    "home": "ኤክስፕረስ",
+    "home": "አክሮስኤክስፕረስ",
     "login": "ይግቡ",
-    "signup": "ይመዝገቡ"
+    "signup": "ይመዝገቡ",
+    "language": "አማ"
   },
   "hero": {
     "titleStart": "አክሮስ ኤክስፕሬስ — ",

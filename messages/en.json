@@ -1,8 +1,9 @@
 {
   "navbar": {
-    "home": "Express",
+    "home": "AcrossExpress",
     "login": "Login",
-    "signup": "Sign Up"
+    "signup": "Sign Up",
+    "language": "En"
   },
   "hero": {
     "titleStart": "AcrossExpress",
