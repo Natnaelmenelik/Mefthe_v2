@@ -152,15 +152,23 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           {LanguageButton}
           <div className="hidden md:flex space-x-4">
-            <Button className="text-white font-semibold text-lg px-4 py-5 rounded-sm">
-              {t("signup")}
-            </Button>
-            <Button
-              variant="outline"
-              className="text-lg font-semibold px-4 py-5 rounded-sm"
+            <a
+              href="https://learning.acrossexpress.com/login#signup"
+              target="blank"
             >
-              {t("login")}
-            </Button>
+              <Button className="text-white font-semibold text-lg px-4 py-5 rounded-sm cursor-pointer">
+                {t("signup")}
+              </Button>
+            </a>
+
+            <a href="https://learning.acrossexpress.com/login" target="blank">
+              <Button
+                variant="outline"
+                className="text-lg font-semibold px-4 py-5 rounded-sm cursor-pointer"
+              >
+                {t("login")}
+              </Button>
+            </a>
           </div>
           {/* Mobile menu icon */}
           <Menu
@@ -188,15 +196,23 @@ const Navbar = () => {
 
             {/* Sidebar Navigation */}
             <div className="mt-10 flex flex-col space-y-3">
-              <Button
-                variant="outline"
-                className="w-full text-lg font-bold px-4 py-5 rounded-sm"
+              <a href="https://learning.acrossexpress.com/login" target="blank">
+                <Button
+                  variant="outline"
+                  className="w-full text-lg font-bold px-4 py-5 rounded-sm cursor-pointer"
+                >
+                  {t("login")}
+                </Button>
+              </a>
+
+              <a
+                href="https://learning.acrossexpress.com/login#signup"
+                target="blank"
               >
-                {t("login")}
-              </Button>
-              <Button className="w-full text-white text-lg font-bold px-4 py-5 rounded-sm">
-                {t("signup")}
-              </Button>
+                <Button className="w-full text-white text-lg font-bold px-4 py-5 rounded-sm cursor-pointer">
+                  {t("signup")}
+                </Button>
+              </a>
             </div>
           </div>
         </div>

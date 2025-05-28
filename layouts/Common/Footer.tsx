@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
               <div className="w-full lg:max-w-[450px] space-y-4 md:ml-5">
                 <p>{t("consultation")}</p>
-                <a href="https://raphaphysiotherapy.com/">
+                <a href="https://raphaphysiotherapy.com/" target="blank">
                   <Button variant={"outline"}>{t("consultationButton")}</Button>
                 </a>
               </div>
