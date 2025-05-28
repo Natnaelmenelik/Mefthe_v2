@@ -11,12 +11,12 @@ const Hero = () => {
         <div className="max-w-md mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1350px]">
           <div className="grid gap-5 md:grid-cols-2">
             <div className="md:mt-10 space-y-5">
-              <h1 className="text-3xl font-bold text-center md:text-start md:text-4xl">
+              <h1 className="text-3xl font-bold text-center md:text-start md:text-4xl xl:text-5xl">
                 <span className="text-primary">{t("titleStart")}</span>
                 {t("titleEnd")}
               </h1>
 
-              <p className="text-center md:text-start text-lg hidden md:block">
+              <p className="text-center md:text-start text-lg xl:text-xl hidden md:block">
                 {t("description")}
               </p>
 
