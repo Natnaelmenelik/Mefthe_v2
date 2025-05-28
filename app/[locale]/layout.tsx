@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Methe | መፍትሄ",
+  title: "Mefthe | መፍትሄ",
 };
 
 export default async function RootLayout({

@@ -20,7 +20,7 @@ const Hero = () => {
                 {t("description")}
               </p>
 
-              <Button className="p-5 bg-primary text-white w-full md:w-40 font-semibold">
+              <Button className="p-5 bg-primary text-lg text-white w-full md:w-40 font-semibold">
                 {t("cta")}
               </Button>
             </div>
