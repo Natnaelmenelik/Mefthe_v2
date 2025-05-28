@@ -5,6 +5,7 @@ import Courses from "./Courses";
 import Features from "./Features";
 import Hero from "./Hero";
 import Testimonials from "./Testimonials";
+import ScrollSection from "@/components/ScrollSection";
 
 const HomePage = () => {
   return (
@@ -13,27 +14,39 @@ const HomePage = () => {
         <Navbar />
       </section>
       <section id="hero">
-        <Hero />
+        <ScrollSection>
+          <Hero />
+        </ScrollSection>
       </section>
 
       <section id="featues">
-        <Features />
+        <ScrollSection>
+          <Features />
+        </ScrollSection>
       </section>
 
       <section id="courses">
-        <Courses />
+        <ScrollSection>
+          <Courses />
+        </ScrollSection>
       </section>
 
       <section id="testimonials">
-        <Testimonials />
+        <ScrollSection>
+          <Testimonials />
+        </ScrollSection>
       </section>
 
       <section id="contact">
-        <Contact />
+        <ScrollSection>
+          <Contact />
+        </ScrollSection>
       </section>
 
       <section id="footer">
-        <Footer />
+        <ScrollSection>
+          <Footer />
+        </ScrollSection>
       </section>
     </>
   );
