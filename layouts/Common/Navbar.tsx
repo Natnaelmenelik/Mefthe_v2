@@ -98,7 +98,7 @@
 // export default Navbar;
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
@@ -130,6 +130,16 @@ const Navbar = () => {
     </Button>
   );
 
+  useEffect(() => {
+    if (toggleSidebar) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+
+    // Cleanup on unmount
+    return () => document.body.classList.remove("overflow-hidden");
+  }, [toggleSidebar]);
   return (
     <nav className="sticky top-0 z-50 p-5 bg-background shadow-sm">
       <div className="max-w-md mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1350px] flex justify-between items-center">

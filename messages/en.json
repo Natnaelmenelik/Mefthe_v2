@@ -1,12 +1,15 @@
 {
+  "header": {
+    "title": "Methe"
+  },
   "navbar": {
-    "home": "AcrossExpress",
+    "home": "Mefthe",
     "login": "Login",
     "signup": "Sign Up",
     "language": "En"
   },
   "hero": {
-    "titleStart": "AcrossExpress",
+    "titleStart": "Mefthe",
     "titleEnd": " - Redefining Physiotherapy Education",
     "description": "Learn from world-class physiotherapists anytime, anywhere. AcrossExpress offers expert-led courses, practical simulations and tools to help you grow faster and treat smarter.",
     "cta": "Get Started"
