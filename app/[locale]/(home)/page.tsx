@@ -9,7 +9,7 @@ const LandingPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 900);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
