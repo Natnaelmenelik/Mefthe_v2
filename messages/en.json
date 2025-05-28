@@ -2,6 +2,9 @@
   "header": {
     "title": "Methe"
   },
+  "loading": {
+    "title": "MEFTHE"
+  },
   "navbar": {
     "home": "Mefthe",
     "login": "Login",
