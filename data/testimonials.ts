@@ -12,8 +12,8 @@ export const testimonials: TestimonialProps[] = [
       am: "ዶ/ር ሳራ ቶምፕሰን",
     },
     testimony: {
-      en: "AcrossExpress transformed the way I teach and learn physiotherapy. The simulations are incredibly lifelike.",
-      am: "AcrossExpress የፊዚዮተራፒ ትምህርትን እንዴት እንደማማረርና መማር አለው በሙሉ ቀየረው። ስምላምዎቹ እጅግ በሕይወት የተመሰሉ ናቸው።",
+      en: "Methe transformed the way I teach and learn physiotherapy. The simulations are incredibly lifelike.",
+      am: "መፍትሄ የፊዚዮተራፒ ትምህርትን እንዴት እንደማማረርና መማር አለው በሙሉ ቀየረው። ስምላምዎቹ እጅግ በሕይወት የተመሰሉ ናቸው።",
     },
     stars: 5,
     role: {
@@ -29,8 +29,8 @@ export const testimonials: TestimonialProps[] = [
       am: "አቤል ታደሰ",
     },
     testimony: {
-      en: "As a student, AcrossExpress gave me access to quality resources I couldn’t find anywhere else in Ethiopia.",
-      am: "እንደ ተማሪ፣ AcrossExpress በኢትዮጵያ ሌላ ቦታ ማግኘት የማይቻል ጥራት ያላቸውን መረጃዎች አስተዋውቀኝ።",
+      en: "As a student, Methe gave me access to quality resources I couldn’t find anywhere else in Ethiopia.",
+      am: "እንደ ተማሪ፣ መፍትሄ በኢትዮጵያ ሌላ ቦታ ማግኘት የማይቻል ጥራት ያላቸውን መረጃዎች አስተዋውቀኝ።",
     },
     stars: 4,
     role: {
@@ -46,8 +46,8 @@ export const testimonials: TestimonialProps[] = [
       am: "ሀና ለማ",
     },
     testimony: {
-      en: "I improved my clinical skills quickly using AcrossExpress. It’s a must-have platform for every physiotherapist.",
-      am: "በAcrossExpress እንደ ፊዚዮተራፒስት ክሊኒካዊ ክህሎቶቼን በፍጥነት አሻሻልኩ። ለእያንዳንዱ ፊዚዮተራፒስት የሚጠበቅ መድረክ ነው።",
+      en: "I improved my clinical skills quickly using Methe. It’s a must-have platform for every physiotherapist.",
+      am: "በመፍትሄ እንደ ፊዚዮተራፒስት ክሊኒካዊ ክህሎቶቼን በፍጥነት አሻሻልኩ። ለእያንዳንዱ ፊዚዮተራፒስት የሚጠበቅ መድረክ ነው።",
     },
     stars: 5,
     role: {
