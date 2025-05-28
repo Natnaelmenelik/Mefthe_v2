@@ -20,7 +20,7 @@ const Contact = () => {
                 {t("title")}
               </h1>
 
-              <div className="mt-10 md:px-6  lg:px-0 md:mt-10 space-y-4">
+              <div className="mt-10 lg:px-0 md:mt-10 space-y-4">
                 <p className="font-bold text-start text-2xl">
                   {t("description")}
                 </p>

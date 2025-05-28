@@ -7,7 +7,7 @@ const Hero = () => {
   const t = useTranslations("hero");
   return (
     <>
-      <section className="mt-8 p-4">
+      <section className="mt-32 p-4">
         <div className="max-w-md mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1350px]">
           <div className="grid gap-5 md:grid-cols-2">
             <div className="md:mt-10 xl:md:mt-20 space-y-5">
