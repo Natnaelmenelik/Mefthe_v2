@@ -86,7 +86,7 @@ const Navbar = () => {
           <div className="max-w-md mx-auto sm:max-w-xl">
             {/* Sidebar Header */}
             <div className="flex justify-between items-center">
-              <h1 className="text-3xl text-primary font-bold">Express</h1>
+              <h1 className="text-3xl text-primary font-bold">{t("home")}</h1>
               <div className="flex items-center space-x-3">
                 {LanguageButton}
                 <XIcon
