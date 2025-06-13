@@ -17,7 +17,7 @@ const Hero = () => {
                 {t("titleEnd")}
               </h1>
 
-              <p className="text-center md:text-start text-lg xl:text-xl hidden md:block">
+              <p className="text-center md:text-start text-lg xl:text-xl">
                 {t("description")}
               </p>
 
