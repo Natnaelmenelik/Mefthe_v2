@@ -29,7 +29,7 @@ const Footer = () => {
             {/* Lower Side */}
             <div className="flex flex-col md:flex-row gap-8 ">
               <div className="w-full">
-                <h1 className="text-5xl font-bold text-primary">
+                <h1 className="text-5xl md:text-4xl lg:text-5xl font-bold text-primary">
                   {t("title")}
                 </h1>
               </div>

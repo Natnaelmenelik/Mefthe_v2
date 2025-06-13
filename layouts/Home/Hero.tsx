@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import Illustration from "@/assets/Illustration.png";
+// import Illustration from "@/assets/Illustration.png";
+import MeftheIllus from "@/assets/MeftheIllus.png";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -25,7 +26,7 @@ const Hero = () => {
               </Button>
             </div>
             <div className="m-auto">
-              <Image src={Illustration} alt="Ilustration" />
+              <Image src={MeftheIllus} alt="Ilustration" />
             </div>
           </div>
         </div>

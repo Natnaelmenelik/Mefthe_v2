@@ -6,21 +6,24 @@
     "title": "MEFTHE"
   },
   "navbar": {
-    "home": "Mefthe",
+    "home": "Mefthe | መፍትሄ",
     "login": "Log In",
     "signup": "Sign Up",
     "language": "En"
   },
   "hero": {
     "titleStart": "Mefthe",
-    "titleEnd": " - Redefining Physiotherapy Education",
-    "description": "Learn from world-class physiotherapists anytime, anywhere. Methe offers expert-led courses, practical simulations and tools to help you grow faster and treat smarter.",
+    "titleEnd": " - Oriented Parenting Support",
+    "description": "Access high-quality, expert-led training programs designed by seasoned professionals with years of experience in child development. Our programs empower parents to effectively support and overcome the challenges children face as they grow.",
     "cta": "Get Started"
   },
   "features": {
     "title": "Featured Services",
-    "descriptionOne": "Neque porro quisquam est, qui dolorem ipsum dolor sit amet, consectetursed quia non numuam eius modi incidunt dolor in reprehenderit in voluta dolore eu fugiat nulla pariatur.",
-    "descriptionTwo": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident."
+    "introduction": "What Will You Gain from Meftehe's Training Programs?",
+    "featureOne": "Courses Delivered in High-Quality Audio and Video.",
+    "featureTwo": "Self-Paced Courses You Can Follow Anytime, at Your Own Speed.",
+    "featureThree": "Free Q&A Sessions with Experienced Professionals and Trainers in the Field",
+    "more": "In Addition To These..."
   },
   "courses": {
     "title": "Popular Courses",
@@ -44,9 +47,9 @@
     "website": "Website"
   },
   "footer": {
-    "motto": "Transforming futures through world-class physiotherapy education, learn with purpose, heal with skill, and lead with impact.",
+    "motto": "Transforming Families through Expert-Led Parenting Education. Learn with intention, guide with confidence, and lead your child’s growth with lasting impact.",
     "consultationButton": "Boor Your Consultation",
-    "title": "Mefthe",
+    "title": "Mefthe | መፍትሄ",
     "consultation": "Book your personalized consultation with a certified physiotherapy expert and take the first step toward better health and recovery"
   }
 }

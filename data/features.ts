@@ -18,8 +18,9 @@ export const features: FeatureProps[] = [
       am: "በተለያዩ ቋንቋዎች የመማር አማራጮች",
     },
     description: {
-      en: "Choose from multiple languages to learn in the one you're most comfortable with.",
-      am: "የእርስዎን ቋንቋ በመምረጥ ትምህርቶችን በቀላሉ እና በሚያስተዋውቁበት መልኩ ይማሩ።",
+      en: "Easily Access Courses in Your Preferred Local and International Languages",
+      // am: "የእርስዎን ቋንቋ በመምረጥ ትምህርቶችን በቀላሉ እና በሚያስተዋውቁበት መልኩ ይማሩ።",
+      am: "በመረጡት ሀገርኛና አለምአቀፍ ቋንቋዎች ትምህርቶችን በቀላሉ መከታተል ይችላሉ።",
     },
   },
   {
@@ -36,12 +37,12 @@ export const features: FeatureProps[] = [
   {
     id: 4,
     title: {
-      en: "Content focused on physiotherapy and healthcare",
-      am: "በፊዚዮቴራፒ እና በጤና አገልግሎት ላይ የተመሰረተ የትምህርት ይዘት",
+      en: "Exclusive Discounts for In-Person Medical Follow-Up",
+      am: "ለበአካል የህክምና ክትትል አገልግሎት ልዩ ቅናሽ ያግኛሉ",
     },
     description: {
-      en: "Explore learning materials designed specifically for physiotherapy and general health education.",
-      am: "በፊዚዮቴራፒ እና በአጠቃላይ የጤና ትምህርት ላይ በተመሰረቱ የትምህርት ይዘቶችን ያድምጡ።",
+      en: "Benefit from special offers at Rapha Physiotherapy Center when physical treatment or medical monitoring is required.",
+      am: "በአካል የህክምና ክትትል ሲያስፈልጎ የራፋ ፊዚዮቴራፒ ሴንተር የልዩ ቅናሽ ተጠቓሚ ይሆናሉ::",
     },
   },
 ];
