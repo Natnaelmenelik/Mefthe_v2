@@ -28,6 +28,7 @@ const TestimonialCarousel = () => {
                     <Image
                       src={testimonial.image}
                       alt="Testimonial Image"
+                      loading="lazy"
                       className="rounded-lg"
                       style={{
                         width: "500px",

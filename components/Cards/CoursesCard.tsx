@@ -25,6 +25,7 @@ const CoursesCard = () => {
                 <Image
                   className="rounded-t-lg"
                   src={course.image}
+                  loading="lazy"
                   alt="Course Image"
                   style={{
                     width: "100%",
