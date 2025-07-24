@@ -1,7 +1,7 @@
-import instructor1 from "../assets/instructors/instructor1.jpg";
-import instructor2 from "../assets/instructors/instructor2.jpg";
-import instructor3 from "../assets/instructors/instructor3.jpg";
-import instructor4 from "../assets/instructors/instructor4.jpg";
+import instructor1 from "../public/instructors/instructor1.jpg";
+import instructor2 from "../public/instructors/instructor2.jpg";
+import instructor3 from "../public/instructors/instructor3.jpg";
+import instructor4 from "../public/instructors/instructor4.jpg";
 import { CourseProps } from "@/utils/types";
 
 export const courses: CourseProps[] = [

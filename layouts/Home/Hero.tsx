@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 // import Illustration from "@/assets/Illustration.png";
-import MeftheIllus from "@/assets/MeftheIllus.png";
+import MeftheIllus from "@/public/MeftheIllus.png";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 

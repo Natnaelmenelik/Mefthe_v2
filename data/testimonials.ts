@@ -1,6 +1,6 @@
-import testimonial1 from "../assets/testimonials/testimonial1.jpg";
-import testimonial2 from "../assets/testimonials/testimonial2.jpg";
-import testimonial3 from "../assets/testimonials/testimonial3.jpg";
+import testimonial1 from "../public/testimonials/testimonial1.jpg";
+import testimonial2 from "../public/testimonials/testimonial2.jpg";
+import testimonial3 from "../public/testimonials/testimonial3.jpg";
 import { TestimonialProps } from "@/utils/types";
 
 export const testimonials: TestimonialProps[] = [
