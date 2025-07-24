@@ -31,6 +31,7 @@ const CoursesCard = () => {
                     height: "180px",
                     objectFit: "cover",
                   }}
+                  priority
                 />
               </CardTitle>
               <CardDescription className="mt-3 px-5 lg:!h-[180px]">

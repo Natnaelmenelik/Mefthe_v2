@@ -26,7 +26,7 @@ const Hero = () => {
               </Button>
             </div>
             <div className="m-auto">
-              <Image src={MeftheIllus} alt="Ilustration" />
+              <Image src={MeftheIllus} alt="Ilustration" priority />
             </div>
           </div>
         </div>
