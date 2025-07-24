@@ -8,7 +8,7 @@ export const testimonials: TestimonialProps[] = [
     id: 1,
     image: testimonial1,
     name: {
-      en: "Dr. Sarah Thompson",
+      en: "Dr. Sarah Thompson ",
       am: "ዶ/ር ሳራ ቶምፕሰን",
     },
     testimony: {
