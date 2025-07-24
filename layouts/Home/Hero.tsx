@@ -26,12 +26,7 @@ const Hero = () => {
               </Button>
             </div>
             <div className="m-auto">
-              <Image
-                src={MeftheIllus}
-                alt="Ilustration"
-                loading="lazy"
-                priority
-              />
+              <Image src={MeftheIllus} alt="Ilustration" loading="lazy" />
             </div>
           </div>
         </div>

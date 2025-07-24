@@ -35,7 +35,6 @@ const TestimonialCarousel = () => {
                         height: "400px",
                         objectFit: "cover",
                       }}
-                      priority
                     />
                   </div>
                   <div className="flex flex-col md:my-auto gap-5 md:gap-8">
