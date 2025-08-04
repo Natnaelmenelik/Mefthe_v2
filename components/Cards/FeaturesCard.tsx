@@ -7,15 +7,15 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { features } from "@/data/features";
-import { Award, BrainCircuit, Languages, Stethoscope } from "lucide-react";
+import { Award, BrainCircuit, Languages, Phone } from "lucide-react";
 import { useLocale } from "next-intl";
 import { JSX } from "react";
 
 const icons: { [key: number]: JSX.Element } = {
-  1: <BrainCircuit color="#129990" size={60} />,
+  1: <Phone color="#129990" size={60} />,
   2: <Languages color="#129990" size={60} />,
   3: <Award color="#129990" size={60} />,
-  4: <Stethoscope color="#129990" size={60} />,
+  4: <BrainCircuit color="#129990" size={60} />,
 };
 const FeaturesCard = () => {
   const locale = useLocale();

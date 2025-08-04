@@ -1,6 +1,7 @@
 import Footer from "../Common/Footer";
 import Navbar from "../Common/Navbar";
-import Contact from "./Contact";
+import Appointment from "./Appointment";
+// import Contact from "./Contact";
 import Courses from "./Courses";
 import Features from "./Features";
 import Hero from "./Hero";
@@ -31,17 +32,23 @@ const HomePage = () => {
         </ScrollSection>
       </section>
 
+      <section id="appointment">
+        <ScrollSection>
+          <Appointment />
+        </ScrollSection>
+      </section>
+
       <section id="testimonials">
         <ScrollSection>
           <Testimonials />
         </ScrollSection>
       </section>
 
-      <section id="contact">
+      {/* <section id="contact">
         <ScrollSection>
           <Contact />
         </ScrollSection>
-      </section>
+      </section> */}
 
       <section id="footer">
         <ScrollSection>

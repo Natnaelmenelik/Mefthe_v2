@@ -38,6 +38,37 @@
     "title": "Success Testimonials",
     "description": "Hear from our successful students who have transformed their careers with Mefthe."
   },
+
+  "appointment": {
+    "title": "Book a One-on-One Parenting Support Session",
+    "description": "Connect with certified parenting experts for personalized guidance. Whether you're facing behavioral challenges, speech concerns, or need general support — we’re here to walk with you.",
+    "points": {
+      "certified": "Certified Experts: Parenting, psychology & development specialists.",
+      "flexible": "Flexible Scheduling: Book weekends or evenings too.",
+      "choice": "Your Choice: Phone or video call — your comfort, your pace.",
+      "confidential": "Confidential & Supportive: Safe space to talk freely and be heard."
+    },
+    "form": {
+      "title": "Get Appointment",
+      "name": "Full Name",
+      "phone": "Phone",
+      "email": "Email Address",
+      "callOption": {
+        "label": "Choose Phone or Video Call",
+        "phone": "Phone Call",
+        "video": "Video Call"
+      },
+      "topic": {
+        "label": "Select Topic",
+        "behavior": "Child Behavior",
+        "speech": "Speech Development",
+        "stress": "Parenting Stress"
+      },
+      "message": "Write Message...",
+      "submit": "SUBMIT NOW"
+    }
+  },
+
   "contact": {
     "title": "Get in Touch",
     "description": "Have questions or need support?",

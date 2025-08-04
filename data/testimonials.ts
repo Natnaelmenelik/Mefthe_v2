@@ -8,7 +8,7 @@ export const testimonials: TestimonialProps[] = [
     id: 1,
     image: testimonial1,
     name: {
-      en: "Dr. Sarah Thompson ",
+      en: "Sarah Thompson ",
       am: "ዶ/ር ሳራ ቶምፕሰን",
     },
     testimony: {
@@ -17,8 +17,8 @@ export const testimonials: TestimonialProps[] = [
     },
     stars: 5,
     role: {
-      en: "Student",
-      am: "ተማሪ",
+      en: "Parent",
+      am: "ወላጅ",
     },
   },
   {
@@ -34,8 +34,8 @@ export const testimonials: TestimonialProps[] = [
     },
     stars: 4,
     role: {
-      en: "Doctor",
-      am: "ዶክተር",
+      en: "Parent",
+      am: "ወላጅ",
     },
   },
   {
@@ -51,8 +51,8 @@ export const testimonials: TestimonialProps[] = [
     },
     stars: 5,
     role: {
-      en: "Doctor",
-      am: "ዶክተር",
+      en: "Parent",
+      am: "ወላጅ",
     },
   },
 ];

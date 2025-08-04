@@ -17,6 +17,7 @@ export const courses: CourseProps[] = [
   {
     id: 1,
     image: C1,
+    isAvailable: true,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -51,6 +52,7 @@ export const courses: CourseProps[] = [
   {
     id: 2,
     image: C2,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -85,6 +87,7 @@ export const courses: CourseProps[] = [
   {
     id: 3,
     image: C3,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -119,6 +122,7 @@ export const courses: CourseProps[] = [
   {
     id: 4,
     image: C4,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -152,6 +156,7 @@ export const courses: CourseProps[] = [
   {
     id: 5,
     image: C5,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -185,6 +190,7 @@ export const courses: CourseProps[] = [
   {
     id: 6,
     image: C6,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -218,6 +224,7 @@ export const courses: CourseProps[] = [
   {
     id: 7,
     image: C7,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -251,6 +258,7 @@ export const courses: CourseProps[] = [
   {
     id: 8,
     image: C8,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -284,6 +292,7 @@ export const courses: CourseProps[] = [
   {
     id: 9,
     image: C9,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -317,6 +326,7 @@ export const courses: CourseProps[] = [
   {
     id: 10,
     image: C10,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -350,6 +360,7 @@ export const courses: CourseProps[] = [
   {
     id: 11,
     image: C11,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",
@@ -383,6 +394,7 @@ export const courses: CourseProps[] = [
   {
     id: 12,
     image: C12,
+    isAvailable: false,
     instructor: {
       en: "To Be Assigned",
       am: "ዶ/ር ሰላም ተስፋዬ",

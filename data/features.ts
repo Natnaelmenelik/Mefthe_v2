@@ -3,14 +3,15 @@ export const features: FeatureProps[] = [
   {
     id: 1,
     title: {
-      en: "AI-powered progress tracking",
-      am: "በአርቲፊሺያል ኢንተሊጀንስ (AI) የተደገፈ የእድገት መከታተያ",
+      en: "Schedule a Live Session",
+      am: "ለበአካል የህክምና ክትትል አገልግሎት ልዩ ቅናሽ ያግኛሉ",
     },
     description: {
-      en: "Get personalized learning insights and track your improvement using AI-based analytics.",
-      am: "በAI መረጃ ትንተና የተመሰረተ ትምህርት እድገት በግል ደረጃ ይታያል እና የሚያንቀሳቀስ አሳሳቢ መረጃ ይደርስዎታል።",
+      en: "Need one-on-one support? Book a live appointment with our certified parenting experts for real-time guidance via phone or video call — at your convenience.",
+      am: "በአካል የህክምና ክትትል ሲያስፈልጎ የራፋ ፊዚዮቴራፒ ሴንተር የልዩ ቅናሽ ተጠቓሚ ይሆናሉ::",
     },
   },
+
   {
     id: 2,
     title: {
@@ -37,12 +38,12 @@ export const features: FeatureProps[] = [
   {
     id: 4,
     title: {
-      en: "Exclusive Discounts for In-Person Medical Follow-Up",
-      am: "ለበአካል የህክምና ክትትል አገልግሎት ልዩ ቅናሽ ያግኛሉ",
+      en: "AI-powered progress tracking",
+      am: "በአርቲፊሺያል ኢንተሊጀንስ (AI) የተደገፈ የእድገት መከታተያ",
     },
     description: {
-      en: "Benefit from special offers at Rapha Physiotherapy Center when physical treatment or medical monitoring is required.",
-      am: "በአካል የህክምና ክትትል ሲያስፈልጎ የራፋ ፊዚዮቴራፒ ሴንተር የልዩ ቅናሽ ተጠቓሚ ይሆናሉ::",
+      en: "Get personalized learning insights and track your improvement using AI-based analytics.",
+      am: "በAI መረጃ ትንተና የተመሰረተ ትምህርት እድገት በግል ደረጃ ይታያል እና የሚያንቀሳቀስ አሳሳቢ መረጃ ይደርስዎታል።",
     },
   },
 ];

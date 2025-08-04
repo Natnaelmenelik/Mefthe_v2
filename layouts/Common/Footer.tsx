@@ -5,6 +5,7 @@ import { BsTelegram } from "react-icons/bs";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaLinkedin } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
+import { MapPin } from "lucide-react";
 
 const Footer = () => {
   const t = useTranslations("footer");
@@ -49,15 +50,19 @@ const Footer = () => {
                   </a>
                 </div>
                 {/* Copyright */}
-                <div>
-                  <p>
-                    Copyright @{new Date(Date.now()).getFullYear()} Methe. All
-                    Right Reserved
-                  </p>
+                <div className="flex gap-2">
+                  <MapPin /> <p>Guji Highland Building, CMC Michael Road,</p>
+                  <p>Addis Ababa</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <p>
+            Copyright @{new Date(Date.now()).getFullYear()} Methe. All Right
+            Reserved
+          </p>
         </div>
       </section>
     </>

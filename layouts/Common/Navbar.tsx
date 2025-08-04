@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Menu, XIcon } from "lucide-react";
+import OneToOneDialog from "@/components/Dialog/AppDIalog";
 
 const Navbar = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
@@ -52,6 +53,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="flex items-center space-x-4">
+          <OneToOneDialog />
           {LanguageButton}
           <div className="hidden md:flex space-x-4">
             <a

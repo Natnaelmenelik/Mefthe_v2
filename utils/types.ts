@@ -20,6 +20,7 @@ export type TestimonialProps = {
 
 export type CourseProps = {
   id: number;
+  isAvailable: boolean;
   image: StaticImageData;
   instructor: {
     en: string;
