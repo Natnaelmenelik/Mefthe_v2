@@ -9,6 +9,7 @@ import {
 import { testimonials } from "@/data/testimonials";
 import Image from "next/image";
 import { Star } from "lucide-react";
+import BigQuote from "@/public/bigquote.png";
 
 const TestimonialCarousel = () => {
   const locale = useLocale();
@@ -26,7 +27,7 @@ const TestimonialCarousel = () => {
                 <div className="h-[980px] md:h-[540px] grid md:grid-cols-2 gap-8 p-9">
                   <div className="m-auto">
                     <Image
-                      src={testimonial.image}
+                      src={BigQuote}
                       alt="Testimonial Image"
                       loading="lazy"
                       className="rounded-lg"

@@ -1,19 +1,19 @@
 {
   "header": {
-    "title": "Methe"
+    "title": "Mefthe"
   },
   "loading": {
     "title": "MEFTHE"
   },
   "navbar": {
-    "home": "Mefthe | መፍትሄ",
+    "home": "Mefthe",
     "login": "Log In",
     "signup": "Sign Up",
     "language": "En"
   },
   "hero": {
     "titleStart": "Mefthe",
-    "titleEnd": " - Oriented Parenting Support",
+    "titleEnd": " - Learn from trusted experts. Grow with your child.",
     "description": "Access high-quality, expert-led training programs designed by seasoned professionals with years of experience in child development. Our programs empower parents to effectively support and overcome the challenges children face as they grow.",
     "cta": "Get Started"
   },
@@ -27,7 +27,7 @@
   },
   "courses": {
     "title": "Popular Courses",
-    "description": "Neque porro quisquam est, qui dolorem ipsum dolor sit amet, consectetursed quia non numuam eius modi incidunt dolor in reprehenderit",
+    "description": "Explore our most sought-after courses, carefully designed to equip you with practical skills and in-demand knowledge.",
     "instructor": "Instructor",
     "duration": "Duration",
     "enroll": "Enroll Now",
@@ -36,7 +36,7 @@
   },
   "testimonials": {
     "title": "Success Testimonials",
-    "description": "Hear from our successful students who have transformed their careers with AcrossExpress."
+    "description": "Hear from our successful students who have transformed their careers with Mefthe."
   },
   "contact": {
     "title": "Get in Touch",

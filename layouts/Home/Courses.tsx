@@ -16,7 +16,7 @@ const Courses = () => {
         </div>
 
         {/* Lower Side */}
-        <div className="mt-20 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           <CoursesCard />
         </div>
       </div>
