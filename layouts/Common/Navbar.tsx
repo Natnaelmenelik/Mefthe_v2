@@ -52,10 +52,10 @@ const Navbar = () => {
         </h1>
 
         {/* Desktop Menu */}
-        <div className="flex items-center space-x-4">
-          <OneToOneDialog />
+        <div className="flex items-center space-x-2 md:space-x-4">
           {LanguageButton}
           <div className="hidden md:flex space-x-4">
+            {<OneToOneDialog />}
             <a
               href="https://learning.acrossexpress.com/login#signup"
               target="blank"
@@ -90,6 +90,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
               <h1 className="text-3xl text-primary font-bold">{t("home")}</h1>
               <div className="flex items-center space-x-3">
+                {/* {<OneToOneDialog />} */}
                 {LanguageButton}
                 <XIcon
                   className="cursor-pointer"
@@ -100,6 +101,7 @@ const Navbar = () => {
 
             {/* Sidebar Navigation */}
             <div className="mt-10 flex flex-col space-y-3">
+              {<OneToOneDialog />}
               <a href="https://learning.acrossexpress.com/login" target="blank">
                 <Button
                   variant="outline"

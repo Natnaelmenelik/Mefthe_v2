@@ -6,7 +6,7 @@ const Appointment = () => {
   const t = useTranslations("appointment");
 
   return (
-    <section className="mt-32 p-4">
+    <section className="mt-20 p-4">
       <div className="max-w-md mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[1350px]">
         <div className="grid gap-5 md:grid-cols-2">
           {/* LEFT: Text Section */}
