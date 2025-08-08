@@ -50,9 +50,11 @@ const Footer = () => {
                   </a>
                 </div>
                 {/* Copyright */}
-                <div className="flex gap-2">
-                  <MapPin /> <p>Guji Highland Building, CMC Michael Road,</p>
-                  <p>Addis Ababa</p>
+                <div className="flex flex-col md:flex-row gap-2">
+                  <div className="flex gap-2">
+                    <MapPin />{" "}
+                    <p>Guji Highland Building, CMC Michael Road, Addis Ababa</p>
+                  </div>
                 </div>
               </div>
             </div>
