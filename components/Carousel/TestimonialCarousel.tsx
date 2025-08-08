@@ -25,17 +25,12 @@ const TestimonialCarousel = () => {
                 className="bg-primary rounded-md !pl-0"
               >
                 <div className="h-[980px] md:h-[540px] grid md:grid-cols-2 gap-8 p-9">
-                  <div className="m-auto">
+                  <div className="w-full max-w-[500px] mx-auto">
                     <Image
                       src={BigQuote}
                       alt="Testimonial Image"
                       loading="lazy"
-                      className="rounded-lg"
-                      style={{
-                        width: "500px",
-                        height: "400px",
-                        objectFit: "cover",
-                      }}
+                      className="w-full h-auto rounded-lg object-cover"
                     />
                   </div>
                   <div className="flex flex-col md:my-auto gap-5 md:gap-8">
