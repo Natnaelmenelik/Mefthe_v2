@@ -113,8 +113,40 @@ const OneToOneDialog = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="text-white font-semibold text-lg px-4 py-5 rounded-sm cursor-pointer">
-          One on One
+        <Button className="relative px-6 py-5 font-semibold text-white rounded-sm  overflow-hidden">
+          <span className="text-lg">One on One</span>
+          {/* The animated border */}
+          <span className="absolute inset-0 border border-transparent rounded-sm pointer-events-none">
+            {/* Top edge */}
+            <span
+              className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-red-500 to-transparent"
+              style={{ animation: "run-border 2s linear infinite" }}
+            />
+            {/* Right edge */}
+            <span
+              className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-transparent via-red-500 to-transparent"
+              style={{
+                animation: "run-border 2s linear infinite",
+                animationDelay: "0.5s",
+              }}
+            />
+            {/* Bottom edge */}
+            <span
+              className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-red-500 to-transparent"
+              style={{
+                animation: "run-border 2s linear infinite",
+                animationDelay: "1s",
+              }}
+            />
+            {/* Left edge */}
+            <span
+              className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-transparent via-red-500 to-transparent"
+              style={{
+                animation: "run-border 2s linear infinite",
+                animationDelay: "1.5s",
+              }}
+            />
+          </span>
         </Button>
       </DialogTrigger>
 

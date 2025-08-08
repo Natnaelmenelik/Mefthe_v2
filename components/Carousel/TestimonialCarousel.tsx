@@ -24,7 +24,7 @@ const TestimonialCarousel = () => {
                 key={testimonial.id}
                 className="bg-primary rounded-md !pl-0"
               >
-                <div className="h-[980px] md:h-[540px] grid md:grid-cols-2 gap-8 p-9">
+                <div className="h-[980px] md:h-[540px] grid md:grid-cols-2 gap-8 p-7">
                   <div className="w-full max-w-[500px] m-auto">
                     <Image
                       src={BigQuote}
