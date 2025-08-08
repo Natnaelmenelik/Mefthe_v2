@@ -154,7 +154,7 @@ const CoursesCard = ({ course }: { course: Course }) => {
               />
             </div>
           </CardTitle>
-          <CardDescription className="mt-3 px-5 sm:!h-[140px] md:!h-[160px] lg:!h-[200px] xl:!h-[170px]">
+          <CardDescription className="mt-3 px-5 sm:!h-[205px] md:!h-[160px] lg:!h-[200px] xl:!h-[205px]">
             <h3 className="text-xl font-semibold text-black text-start">
               {course.courseTiitle[locale as "en" | "am"]}
             </h3>
