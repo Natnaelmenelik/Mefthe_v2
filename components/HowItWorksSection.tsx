@@ -84,7 +84,7 @@
 
 // export default HowItWorksSection;
 
-import StepOne from "@/public/steps/StepOnee.png";
+import StepOne from "@/public/steps/StepOne.png";
 import StepTwo from "@/public/steps/StepTwo.png";
 import StepThree from "@/public/steps/StepThreee.png";
 import { useTranslations } from "next-intl";
