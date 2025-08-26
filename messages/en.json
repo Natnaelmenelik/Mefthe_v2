@@ -13,9 +13,27 @@
   },
   "hero": {
     "titleStart": "Mefthe",
-    "titleEnd": " - Learn from trusted experts. Grow with your child.",
-    "description": "Access high-quality, expert-led training programs designed by seasoned professionals with years of experience in child development. Our programs empower parents to effectively support and overcome the challenges children face as they grow.",
-    "cta": "Get Started"
+    "titleEnd": " - Your Words. Your World. Unlocked.",
+    "description": "Transform Lives with Expert Speech Therapy Sessions Personalized support to help children and adults speak clearly, confidently, and with joy. Delivered by certified professionals, tailored to each unique journey.",
+    "cta": "Get Started",
+    "seeMore": "See More",
+    "accContent": "Access high-quality, expert-led training programs designed by seasoned professionals with years of experience in child development. Our programs empower parents to effectively support and overcome the challenges children face as they grow."
+  },
+
+  "howItWorks": {
+    "title": "How Speech Therapy Works?",
+    "stepOne": {
+      "title": "Start with a Free Evaluation",
+      "description": "Let Us Evaluate Your Learning Needs"
+    },
+    "stepTwo": {
+      "title": "We'll Match You With the Ideal Therapist",
+      "description": "Your Comfort and Connection Come First."
+    },
+    "stepThree": {
+      "title": "Practice and Improve Your Speech",
+      "description": "Build confidence with every word."
+    }
   },
   "features": {
     "title": "Featured Services",

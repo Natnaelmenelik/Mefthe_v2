@@ -114,7 +114,7 @@ const OneToOneDialog = () => {
     <Dialog>
       <DialogTrigger asChild>
         <Button className="relative px-6 py-5 font-semibold text-white rounded-sm  overflow-hidden">
-          <span className="text-lg">One on One</span>
+          <span className="text-lg">Get free evaluation</span>
           {/* The animated border */}
           <span className="absolute inset-0 border border-transparent rounded-sm pointer-events-none">
             {/* Top edge */}

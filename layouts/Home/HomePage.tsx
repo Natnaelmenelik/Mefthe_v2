@@ -5,6 +5,7 @@ import Appointment from "./Appointment";
 import Courses from "./Courses";
 import Features from "./Features";
 import Hero from "./Hero";
+import HowItWorks from "./HowItWorks";
 import Testimonials from "./Testimonials";
 import ScrollSection from "@/components/ScrollSection";
 
@@ -17,6 +18,12 @@ const HomePage = () => {
       <section id="hero">
         <ScrollSection>
           <Hero />
+        </ScrollSection>
+      </section>
+
+      <section id="howitworks">
+        <ScrollSection>
+          <HowItWorks />
         </ScrollSection>
       </section>
 

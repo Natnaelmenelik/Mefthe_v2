@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import MeftheIllus from "@/public/MeftheIllus.png";
+// import MeftheIllus from "@/public/MeftheIllus.png";
+import HeroPic from "@/public/HeroPic.png";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,6 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import OneToOneDialog from "@/components/Dialog/AppDIalog";
 
 const Hero = () => {
   const t = useTranslations("hero");
@@ -32,16 +34,13 @@ const Hero = () => {
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="data-[state=open]:hidden [&>svg]:hidden w-full">
                     <p className="text-xl md:text-lg font-normal underline w-full text-center md:text-start">
-                      See More...
+                      {t("seeMore")}
                     </p>
                   </AccordionTrigger>
 
                   <AccordionContent>
                     <p className="text-center md:text-start text-lg xl:text-xl mt-4 mb-4">
-                      Mefthe is your go-to online platform for parenting
-                      education. We offer expert-led, evidence-based courses
-                      designed to help parents support their child’s emotional,
-                      social, and intellectual development anytime, anywhere.
+                      {t("accContent")}
                     </p>
 
                     {/* SEE LESS Trigger (bottom of open content) */}
@@ -55,14 +54,21 @@ const Hero = () => {
               </Accordion>
             </div>
 
-            <Button className="p-5 bg-primary text-lg text-white w-full md:w-40 font-semibold">
-              {t("cta")}
-            </Button>
+            <div className="flex flex-col md:flex-row gap-3">
+              <Button
+                variant="outline"
+                className="p-5 bg-white text-lg text-primary w-full md:w-40 font-semibold"
+              >
+                {t("cta")}
+              </Button>
+
+              {<OneToOneDialog />}
+            </div>
           </div>
 
           {/* RIGHT: Image */}
           <div className="m-auto order-1 md:order-2">
-            <Image src={MeftheIllus} alt="Illustration" loading="lazy" />
+            <Image src={HeroPic} alt="Illustration" loading="lazy" />
           </div>
         </div>
       </div>

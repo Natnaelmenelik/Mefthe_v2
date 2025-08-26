@@ -17,6 +17,21 @@
     "description": "ወላጆች ስለልጆች አስተዳደግ ፣ ልጆች በእድገት ላይ የሚያጋጥሟቸውን ችግሮች ለመፍታትና ለማገዝ በረጅም አመት ልምድ በዘርፉ ላይ ባካበቱ ፣ በእውቀታቸው በተመሰከረላቸው ባለሙያዎች በከፍተኛ ጥራትና አቀራረብ የተዘጋጁ ስልጠናዎችን ያግኙ።",
     "cta": "ይጀምሩ"
   },
+  "howItWorks": {
+    "title": "",
+    "stepOne": {
+      "title": "",
+      "description": ""
+    },
+    "stepTwo": {
+      "title": "",
+      "description": "Sign up for the courses that resonate with you. Our user-friendly platform allows you to learn at your own pace, with flexible scheduling to fit your busy life."
+    },
+    "stepThree": {
+      "title": "",
+      "description": ""
+    }
+  },
   "features": {
     "title": "ምንሰጣቸው አገልግሎቶች",
     "introduction": "ከመፍትሄ ስልጠናዎች ምን ያገኛሉ?",
