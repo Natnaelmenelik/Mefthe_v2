@@ -17,14 +17,14 @@ const TestimonialCarousel = () => {
   return (
     <>
       <div className="px-5 mx-auto">
-        <Carousel className="h-[1050px] md:h-[620px] w-full">
+        <Carousel className="h-[1000px] md:h-[620px] w-full">
           <CarouselContent className="mx-auto mb-10">
             {testimonials.map((testimonial) => (
               <CarouselItem
                 key={testimonial.id}
                 className="bg-primary rounded-md !pl-0"
               >
-                <div className="h-[980px] md:h-[540px] grid md:grid-cols-2 gap-8 p-7">
+                <div className="h-[880px] md:h-[540px] grid md:grid-cols-2 gap-8 p-7">
                   <div className="w-full max-w-[500px] m-auto">
                     <Image
                       src={BigQuote}
