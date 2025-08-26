@@ -1,4 +1,4 @@
-import HowItWorksSection from "@/components/HowItWorks";
+import HowItWorksSection from "@/components/HowItWorksSection";
 import { useTranslations } from "next-intl";
 
 const HowItWorks = () => {
