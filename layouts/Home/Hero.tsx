@@ -46,7 +46,7 @@ const Hero = () => {
                     {/* SEE LESS Trigger (bottom of open content) */}
                     <AccordionTrigger className="text-lg underline [&>svg]:hidden w-full">
                       <span className="w-full text-xl md:text-lg font-normal block text-center md:text-start">
-                        See Less...
+                        {t("seeLess")}...
                       </span>
                     </AccordionTrigger>
                   </AccordionContent>
