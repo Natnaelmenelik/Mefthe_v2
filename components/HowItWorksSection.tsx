@@ -106,13 +106,7 @@ const HowItWorksSection = () => {
     <div className="flex h-full flex-col items-center text-center">
       {/* Fixed-height image box ensures same starting point for titles */}
       <div className="relative w-full h-40 md:h-44 lg:h-48">
-        <Image
-          src={img}
-          alt="Illustration"
-          fill
-          className="object-contain"
-          priority={false}
-        />
+        <Image src={img} alt="Illustration" fill className="object-contain" />
       </div>
 
       {/* Fixed, consistent spacing below the image */}
