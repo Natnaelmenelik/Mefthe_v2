@@ -59,6 +59,7 @@
   },
 
   "appointment": {
+    "getFreeEvaluation": "Get Free Evaluation",
     "title": "Book a One-on-One Parenting Support Session",
     "description": "Connect with certified parenting experts for personalized guidance. Whether you're facing behavioral challenges, speech concerns, or need general support — we’re here to walk with you.",
     "points": {
@@ -100,6 +101,9 @@
     "motto": "Transforming Families through Expert-Led Parenting Education. Learn with intention, guide with confidence, and lead your child’s growth with lasting impact.",
     "consultationButton": "Boor Your Consultation",
     "title": "Mefthe | መፍትሄ",
-    "consultation": "Book your personalized consultation with a certified physiotherapy expert and take the first step toward better health and recovery"
+    "consultation": "Book your personalized consultation with a certified physiotherapy expert and take the first step toward better health and recovery",
+    "location": "Guji Highland Building, CMC Michael Road, Addis Ababa",
+    "copyrightFront": "Copyright ",
+    "copyRightBack": " Mefthe. All rights reserved"
   }
 }

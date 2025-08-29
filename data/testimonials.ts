@@ -8,12 +8,12 @@ export const testimonials: TestimonialProps[] = [
     id: 1,
     image: testimonial1,
     name: {
-      en: "Sarah Thompson ",
-      am: "ዶ/ር ሳራ ቶምፕሰን",
+      en: "Saron Belachew ",
+      am: "ሳሮን በላቸው",
     },
     testimony: {
       en: "Methe transformed the way I teach and learn physiotherapy. The simulations are incredibly lifelike.",
-      am: "መፍትሄ የፊዚዮተራፒ ትምህርትን እንዴት እንደማማረርና መማር አለው በሙሉ ቀየረው። ስምላምዎቹ እጅግ በሕይወት የተመሰሉ ናቸው።",
+      am: "መፍትሄ ፊዚዮቴራፒን የማስተምርበትን እና የምማርበትን መንገድ ለውጦታል። ምሳሌዎቹ በማይታመን ሁኔታ መሬት ጋር ካለው ጋር የሚመስሉ ናቸው።",
     },
     stars: 5,
     role: {
@@ -30,7 +30,7 @@ export const testimonials: TestimonialProps[] = [
     },
     testimony: {
       en: "As a student, Methe gave me access to quality resources I couldn’t find anywhere else in Ethiopia.",
-      am: "እንደ ተማሪ፣ መፍትሄ በኢትዮጵያ ሌላ ቦታ ማግኘት የማይቻል ጥራት ያላቸውን መረጃዎች አስተዋውቀኝ።",
+      am: "ተማሪ እንደመሆኔ፣ መፍትሄ ኢትዮጵያ ውስጥ ሌላ ቦታ ማግኘት የማልችለውን ጥራት ያለው ግብአት እንዳገኝ ረድቶኛል።",
     },
     stars: 4,
     role: {
@@ -47,7 +47,7 @@ export const testimonials: TestimonialProps[] = [
     },
     testimony: {
       en: "I improved my clinical skills quickly using Methe. It’s a must-have platform for every physiotherapist.",
-      am: "በመፍትሄ እንደ ፊዚዮተራፒስት ክሊኒካዊ ክህሎቶቼን በፍጥነት አሻሻልኩ። ለእያንዳንዱ ፊዚዮተራፒስት የሚጠበቅ መድረክ ነው።",
+      am: "መፍትሄ በመጠቀም የክሊኒካዊ ችሎታዬን በፍጥነት አሻሽያለሁ። ለእያንዳንዱ የፊዚዮቴራፒ ባለሙያም የግድ የምጋብዘው የመማሪያ መረብ ነው።",
     },
     stars: 5,
     role: {

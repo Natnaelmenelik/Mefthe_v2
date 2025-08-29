@@ -4,11 +4,11 @@ export const features: FeatureProps[] = [
     id: 1,
     title: {
       en: "Schedule a Live Session",
-      am: "ለበአካል የህክምና ክትትል አገልግሎት ልዩ ቅናሽ ያግኛሉ",
+      am: "የቀጥታ ስርጭት ክፍለ ጊዜ መርሐግብር ያስይዙ",
     },
     description: {
       en: "Need one-on-one support? Book a live appointment with our certified parenting experts for real-time guidance via phone or video call — at your convenience.",
-      am: "በአካል የህክምና ክትትል ሲያስፈልጎ የራፋ ፊዚዮቴራፒ ሴንተር የልዩ ቅናሽ ተጠቓሚ ይሆናሉ::",
+      am: "አንድ ለአንድ ድጋፍ ይፈልጋሉ? በስልክ ወይም በቪዲዮ ጥሪ በኩል ከተመሰከረላቸው የጤና ባለሙያዎች ጋር የቀጥታ ቀጠሮ ለእርስዎ በሚመች ሁኔታ ይያዙ።",
     },
   },
 
@@ -20,7 +20,6 @@ export const features: FeatureProps[] = [
     },
     description: {
       en: "Easily Access Courses in Your Preferred Local and International Languages",
-      // am: "የእርስዎን ቋንቋ በመምረጥ ትምህርቶችን በቀላሉ እና በሚያስተዋውቁበት መልኩ ይማሩ።",
       am: "በመረጡት ሀገርኛና አለምአቀፍ ቋንቋዎች ትምህርቶችን በቀላሉ መከታተል ይችላሉ።",
     },
   },
@@ -28,7 +27,7 @@ export const features: FeatureProps[] = [
     id: 3,
     title: {
       en: "Certificates upon course completion",
-      am: "ኮርሱን ሲጨርሱ የሚሰጥ የማረጋገጫ ምስክር ወረቀት",
+      am: "በመማር ያገኙትን ስኬቶችዎን የሚያሳውቅ ይፋዊ ሰርተፍኬት ይደርስዎታል።",
     },
     description: {
       en: "Receive an official certificate that recognizes your learning achievements.",
@@ -39,7 +38,7 @@ export const features: FeatureProps[] = [
     id: 4,
     title: {
       en: "AI-powered progress tracking",
-      am: "በአርቲፊሺያል ኢንተሊጀንስ (AI) የተደገፈ የእድገት መከታተያ",
+      am: "በ AI ላይ የተመሠረተ ትንታኔን በመጠቀም ግላዊ የመማሪያ ግንዛቤዎችን ያገኛሉ እና ማሻሻልዎን ይከታተላሉ።",
     },
     description: {
       en: "Get personalized learning insights and track your improvement using AI-based analytics.",

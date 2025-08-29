@@ -19,16 +19,16 @@ export const courses: CourseProps[] = [
     image: C1,
     isAvailable: true,
     instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
+      en: "Dr. MINTESNOT TSADIKU",
+      am: "ዶ/ር ምንተስኖት ጻዲቁ",
     },
     courseTiitle: {
       en: "Speech Therapy for Toddlers",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "የንግግር ሕክምና ለታዳጊዎች",
     },
     courseDescription: {
       en: "Learn effective, practical speech therapy techniques designed specifically for toddlers. Equip yourself with tools to support your child’s speech and language development.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "በተለይ ለታዳጊ ህጻናት የተነደፉ ውጤታማ እና ተግባራዊ የንግግር ህክምና ዘዴዎችን ይማሩ። የልጅዎን የንግግር እና የቋንቋ እድገትን የሚረዱ መሳሪያዎችን እራስዎን ያስታጥቁ።",
     },
     date: {
       en: "25 Aug 2025",
@@ -46,7 +46,7 @@ export const courses: CourseProps[] = [
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
-    link: "",
+    link: "https://learning.acrossexpress.com/login#signup",
   },
 
   {
