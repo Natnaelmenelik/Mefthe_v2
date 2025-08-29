@@ -245,6 +245,7 @@
 import { useTranslations } from "next-intl";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "../ui/button";
+import AppointmentForm from "../form/AppointmentForm";
 
 const OneToOneDialog = () => {
   const t = useTranslations("appointment");
@@ -313,54 +314,7 @@ const OneToOneDialog = () => {
           </div>
 
           {/* RIGHT: Form */}
-          <div className="bg-rose-50 rounded-lg shadow p-4 space-y-4">
-            <h3 className="text-2xl font-semibold text-primary">
-              {t("form.title")}
-            </h3>
-            <form className="space-y-3">
-              <input
-                type="text"
-                placeholder={t("form.name")}
-                className="w-full border px-3 py-2 rounded-md"
-              />
-              <input
-                type="tel"
-                placeholder={t("form.phone")}
-                className="w-full border px-3 py-2 rounded-md"
-              />
-              <input
-                type="email"
-                placeholder={t("form.email")}
-                className="w-full border px-3 py-2 rounded-md"
-              />
-              <select className="w-full border px-3 py-2 rounded-md">
-                <option>{t("form.callOption.label")}</option>
-                <option>{t("form.callOption.phone")}</option>
-                <option>{t("form.callOption.video")}</option>
-              </select>
-              <select className="w-full border px-3 py-2 rounded-md">
-                <option>{t("form.topic.label")}</option>
-                <option>{t("form.topic.behavior")}</option>
-                <option>{t("form.topic.speech")}</option>
-                <option>{t("form.topic.stress")}</option>
-              </select>
-              <input
-                type="datetime-local"
-                className="w-full border px-3 py-2 rounded-md"
-              />
-              <textarea
-                rows={3}
-                placeholder={t("form.message")}
-                className="w-full border px-3 py-2 rounded-md"
-              />
-              <button
-                type="submit"
-                className="w-full bg-teal-700 text-white py-2 rounded-md hover:bg-teal-800"
-              >
-                {t("form.submit")}
-              </button>
-            </form>
-          </div>
+          <AppointmentForm />
         </div>
       </DialogContent>
     </Dialog>

@@ -85,7 +85,10 @@
         "stress": "Parenting Stress"
       },
       "message": "Write Message...",
-      "submit": "SUBMIT NOW"
+      "submit": "SUBMIT NOW",
+      "sending": "Sending...",
+      "success": "Sent! We’ll get back to you soon.",
+      "error": "Failed to send. Please try again."
     }
   },
 

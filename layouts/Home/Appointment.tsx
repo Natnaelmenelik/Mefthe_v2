@@ -1,5 +1,6 @@
 "use client";
 
+import AppointmentForm from "@/components/form/AppointmentForm";
 import { useTranslations } from "next-intl";
 
 const Appointment = () => {
@@ -32,7 +33,7 @@ const Appointment = () => {
           </div>
 
           {/* RIGHT: Form */}
-          <div className="bg-rose-50 rounded-lg shadow p-4 space-y-4">
+          {/* <div className="bg-rose-50 rounded-lg shadow p-4 space-y-4">
             <h3 className="text-2xl font-semibold text-primary">
               {t("form.title")}
             </h3>
@@ -79,7 +80,8 @@ const Appointment = () => {
                 {t("form.submit")}
               </button>
             </form>
-          </div>
+          </div> */}
+          <AppointmentForm />
         </div>
       </div>
     </section>
