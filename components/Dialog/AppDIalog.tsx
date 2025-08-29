@@ -289,7 +289,7 @@ const OneToOneDialog = () => {
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="w-full max-w-[95vw] sm:max-w-[400px] md:max-w-[750px] lg:max-w-[1000px] max-h-[530px] md:max-h-[700px] overflow-y-auto">
+      <DialogContent className="w-full max-w-[95vw] sm:max-w-[400px] md:max-w-[750px] lg:max-w-[1000px] max-h-[670px] md:max-h-[700px] overflow-y-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-2 md:p-4">
           {/* LEFT: Text Section */}
           <div className="space-y-5 bg-white rounded-lg shadow p-4">
