@@ -44,7 +44,7 @@ export const courses: CourseProps[] = [
     id: 2,
     image: C2,
     isAvailable: false,
-    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
+    instructor: { en: "To Be Assigned", am: "በቅርቡ ይመደባል" },
     courseTiitle: {
       en: "Prenatal & Postnatal Physiotherapy",
       am: "ከወሊድ በፊት እና ከወሊድ በኋላ ፊዚዮቴራፒ",
