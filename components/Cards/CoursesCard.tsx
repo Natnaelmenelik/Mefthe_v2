@@ -34,7 +34,7 @@ const CoursesCard = ({ course }: { course: Course }) => {
       {!course.isAvailable && (
         <div className="absolute inset-0 bg-primary/70 backdrop-blur-sm z-10 flex items-center justify-center rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <span className="text-xl sm:text-2xl text-center font-bold text-white">
-            {"Courses will be Available Soon"}
+            {t("coursesWillBeAddedSoon")}
           </span>
         </div>
       )}
