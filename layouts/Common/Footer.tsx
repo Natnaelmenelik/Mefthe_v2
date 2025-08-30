@@ -59,7 +59,7 @@ const Footer = () => {
                     <FaFacebook className="w-9 h-9" />
                   </a>
                   <a
-                    href="10.https://www.tiktok.com/link/v2?aid=1988&lang=en&scene=bio_url&target=https%3A%2F%2Ft.me%2FRaphaphsiotherapy"
+                    href="https://www.tiktok.com/link/v2?aid=1988&lang=en&scene=bio_url&target=https%3A%2F%2Ft.me%2FRaphaphsiotherapy"
                     target="blank"
                   >
                     <AiFillTikTok className="w-10 h-10" />

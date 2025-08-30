@@ -55,12 +55,14 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col md:flex-row gap-3">
-              <Button
-                variant="outline"
-                className="p-5 bg-white text-lg text-primary w-full md:w-40 font-semibold"
-              >
-                {t("cta")}
-              </Button>
+              <a href="https://learning.acrossexpress.com/login#signup">
+                <Button
+                  variant="outline"
+                  className="p-5 bg-white text-lg text-primary w-full md:w-40 font-semibold cursor-pointer"
+                >
+                  {t("cta")}
+                </Button>
+              </a>
 
               {<OneToOneDialog />}
             </div>

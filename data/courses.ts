@@ -31,17 +31,11 @@ export const courses: CourseProps[] = [
       am: "በተለይ ለታዳጊ ህጻናት የተነደፉ ውጤታማ እና ተግባራዊ የንግግር ህክምና ዘዴዎችን ይማሩ። የልጅዎን የንግግር እና የቋንቋ እድገትን የሚረዱ መሳሪያዎችን እራስዎን ያስታጥቁ።",
     },
     date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
+      en: "7 Aug 2025",
+      am: "1 ነሃሴ 2017",
     },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
@@ -53,30 +47,18 @@ export const courses: CourseProps[] = [
     id: 2,
     image: C2,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Prenatal & Postnatal Physiotherapy",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "ከወሊድ በፊት እና ከወሊድ በኋላ ፊዚዮቴራፒ",
     },
     courseDescription: {
       en: "Support mothers through safe and effective physiotherapy during and after pregnancy, addressing pain, recovery, and strengthening.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "እናቶችን በእርግዝና ጊዜና ከወሊድ በኋላ በደህናና በውጤታማ ፊዚዮቴራፒ በመደገፍ ህመም ማስታገስ፣ ፈውስ ማፋጠን እና ጡንቻ መጠናከርን እናቀርባለን።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
@@ -88,30 +70,18 @@ export const courses: CourseProps[] = [
     id: 3,
     image: C3,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Rehabilitation Techniques for Common Injuries",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "ለመደበኛ ጉዳቶች የመልሶ ማቋቋም ዘዴዎች",
     },
     courseDescription: {
       en: "Master the fundamentals of rehabilitating common physical injuries through targeted physiotherapy exercises and expert guidance.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "በታሰበ የፊዚዮቴራፒ ልምምዶች እና በባለሙያ መመሪያ መሠረት መደበኛ አካላዊ ጉዳቶችን ለመልሶ ማቋቋም ያለዎትን መሠረታዊ ክህሎት ያጠናክሩ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
@@ -123,302 +93,193 @@ export const courses: CourseProps[] = [
     id: 4,
     image: C4,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
-    courseTiitle: {
-      en: "Orthopedic Physiotherapy",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
+    courseTiitle: { en: "Orthopedic Physiotherapy", am: "ኦርቶፔዲክ ፊዚዮቴራፒ" },
     courseDescription: {
       en: "Explore the principles and practices of orthopedic physiotherapy to treat bone, joint, and muscle conditions with precision and care.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "የኦርቶፔዲክ ፊዚዮቴራፒ መርሆና መሥራት መንገዶችን ተመልከቱ እና የአጥንት፣ መገጣጠሚያ እና ጡንቻ ችግኝ ሁኔታዎችን በትክክለኛነት እና በጥንቃቄ እንዴት መታከም እንደሚቻል ይማሩ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 5,
     image: C5,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Pediatric Physiotherapy Basics",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "የሕፃናት ፊዚዮቴራፒ መሠረቶች",
     },
     courseDescription: {
       en: "Gain foundational knowledge in pediatric physiotherapy to support the physical development and rehabilitation of children with various conditions.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "ልጆች በተለያዩ ሁኔታዎች ላይ ሲገኙ የአካላዊ እድገታቸውን ለመደገፍ እና ለመመለስ የሚረዱ የሕፃናት ፊዚዮቴራፒ መሠረታዊ እውቀቶችን ያግኙ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 6,
     image: C6,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
-    courseTiitle: {
-      en: "Sports Physiotherapy",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
+    courseTiitle: { en: "Sports Physiotherapy", am: "የስፖርት ፊዚዮቴራፒ" },
     courseDescription: {
       en: "Learn how to assess, treat, and prevent sports-related injuries, and help athletes recover safely and perform at their best.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "ከስፖርት ጋር የተያያዙ ጉዳቶችን እንዴት መገመት፣ መታከም እና መከላከል እንደሚቻል ተማሩ፤ አትሌቶች በደህና እንዲድኑ እና ከፍተኛ ችሎታቸውን እንዲያበረታቱ ይርዱ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 7,
     image: C7,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Using Technology in Physiotherapy",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "በፊዚዮቴራፒ ውስጥ ቴክኖሎጂ መጠቀም",
     },
     courseDescription: {
       en: "Discover how digital tools, apps, and devices are revolutionizing physiotherapy, enhancing both diagnostics and patient care.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "ዲጂታል መሳሪያዎች፣ መተግበሪያዎች እና መሳሪያዎች ፊዚዮቴራፒን እንዴት እየቀየሩት እና ምርመራን እና የታካሚ እንክብካቤን እንዴት እየሻሻሉ እንደሆነ ያግኙ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 8,
     image: C8,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Physiotherapy for Office Workers",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "ለቢሮ ሠራተኞች ፊዚዮቴራፒ",
     },
     courseDescription: {
       en: "Understand and address common posture-related problems, repetitive strain injuries, and sedentary lifestyle effects experienced by desk workers.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "በመቀመጥ ብዙ ሰዓት የሚሰሩ ሰዎች የሚጋጥማቸውን የአቀማመጥ ችግር፣ የተደጋጋሚ ጭነት ጉዳቶች (RSI) እና የእንቅስቃሴ እጥረት ተፅእኖዎችን ለመረዳት እና ለመቆጣጠር ተማሩ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 9,
     image: C9,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Home-Based Physiotherapy Routines",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "በቤት የሚከናወኑ የፊዚዮቴራፒ ስርአቶች",
     },
     courseDescription: {
       en: "Learn guided routines and strategies to help clients or family members recover from injury or improve mobility from the comfort of home.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "ለደንበኞች ወይም ለቤተሰብ አባላት ከጉዳት እንዲድኑ ወይም እንቅስቃሴያቸውን እንዲያሻሽሉ የሚረዱ በመመሪያ የተዘጋጀ ስርአት እና ስትራቴጂዎችን በቤትዎ በምቹ ሁኔታ ተማሩ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 10,
     image: C10,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
-    courseTiitle: {
-      en: "Neurological Physiotherapy",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
+    courseTiitle: { en: "Neurological Physiotherapy", am: "ነሮሎጂካል ፊዚዮቴራፒ" },
     courseDescription: {
       en: "Understand techniques used in treating individuals with neurological disorders such as stroke, Parkinson’s, or spinal injuries through evidence-based rehab.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "ድብደባ (Stroke)፣ ፓርኪንሰን ወይም የጀርባ አካል ጉዳት ያሉ የነሮሎጂካል ችግር ባለቤቶችን በማስረጃ የተመሠረተ መልሶ ማቋቋም በመጠቀም ለማከም የሚጠቅሙ ቴክኒኮችን ይማሩ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 11,
     image: C11,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Gait Training & Balance Exercises",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "የመራመድ ስልጠና እና የሚዛን ልምምዶች",
     },
     courseDescription: {
       en: "Dive into targeted exercises and assistive strategies designed to improve walking patterns, posture, and overall balance in children and adults.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "የመራመድ አቀራረብ፣ አቀማመጥ እና አጠቃላይ የሰውነት ሚዛን ለማሻሻል የታሰቡ ልምምዶችን እና የረዳት ስትራቴጂዎችን ተመልከቱ—ለህፃናትና ለዕድሜ ያሉ ሁሉም ተስማሚ ነው።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
     link: "",
   },
+
   {
     id: 12,
     image: C12,
     isAvailable: false,
-    instructor: {
-      en: "To Be Assigned",
-      am: "ዶ/ር ሰላም ተስፋዬ",
-    },
+    instructor: { en: "To Be Assigned", am: "ዶ/ር ሰላም ተስፋዬ" },
     courseTiitle: {
       en: "Therapeutic Exercises & Manual Therapy Techniques",
-      am: "የፊዚዮቴራፒ መግቢያ ትምህርት",
+      am: "ቴራፒዩቲክ ልምምዶች እና የእጅ ህክምና ቴክኒኮች",
     },
     courseDescription: {
       en: "Learn hands-on techniques and structured exercises to manage pain, improve function, and promote healing through guided manual physiotherapy.",
-      am: "እንደ መሠረታዊ ትምህርት መነሻ፣ የዚህ ጽሑፍ ይዘት አልባ ነው። በስራ እና በማሰልጠኛ ዓላማ የተቀመጠ ተጠቃሚ ማስታወቂያ ነው። ",
+      am: "ህመም ለመቆጣጠር፣ አገልግሎት ለማሻሻል እና ፈውስ ለማበረታት የሚረዱ የእጅ ህክምና ቴክኒኮችን እና የተዋቀሩ የልምምድ ስርአቶችን በመመሪያ ተማሩ።",
     },
-    date: {
-      en: "25 Aug 2025",
-      am: "4 ጥር 2017",
-    },
-    level: {
-      en: "Beginner",
-      am: "መጀመሪያ",
-    },
-    duration: {
-      en: "4 weeks",
-      am: "4 ሳምንታት",
-    },
+    date: { en: "11 Sep 2025", am: "1 መስ 2018" },
+    level: { en: "Beginner", am: "መጀመሪያ" },
+    duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",

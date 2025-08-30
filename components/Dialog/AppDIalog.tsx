@@ -253,7 +253,7 @@ const OneToOneDialog = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="relative px-6 py-5 font-semibold text-white rounded-sm overflow-hidden">
+        <Button className="relative px-6 py-5 font-semibold text-white rounded-sm overflow-hidden cursor-pointer">
           <span className="text-lg">
             {t("getFreeEvaluation") /* Get free evaluation */}
           </span>

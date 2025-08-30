@@ -17,8 +17,8 @@ export const testimonials: TestimonialProps[] = [
     },
     stars: 5,
     role: {
-      en: "Parent",
-      am: "ወላጅ",
+      en: "Teacher",
+      am: "አስተማሪ",
     },
   },
   {
