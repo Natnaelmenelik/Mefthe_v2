@@ -95,8 +95,7 @@ const CoursesCard = ({ course }: { course: Course }) => {
             className="w-full text-primary font-semibold"
           >
             <a href={course.link} target="blank">
-              {" "}
-              {t("enroll")}
+              {course.isAvailable ? t("enroll") : t("coursesWillBeAdded")}
             </a>
           </Button>
         </CardFooter>

@@ -52,7 +52,8 @@
     "enroll": "Enroll Now",
     "level": "Level",
     "date": "Date",
-    "coursesWillBeAddedSoon": "Courses will be Available Soon"
+    "coursesWillBeAddedSoon": "Courses will be Available Soon",
+    "coursesWillBeAdded": "Available Soon"
   },
   "testimonials": {
     "title": "Success Testimonials",

@@ -53,7 +53,8 @@
     "enroll": "አሁን ይመዝገቡ",
     "level": "ደረጃ",
     "date": "ቀን",
-    "coursesWillBeAddedSoon": "ኮርሱ በቅርቡ ይቀርባል"
+    "coursesWillBeAddedSoon": "ኮርሱ በቅርቡ ይቀርባል",
+    "coursesWillBeAdded": "በቅርቡ ይቀርባል"
   },
   "testimonials": {
     "title": "የስኬት ምስክርነቶች",
