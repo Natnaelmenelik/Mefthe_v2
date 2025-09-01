@@ -37,7 +37,7 @@ export const courses: CourseProps[] = [
       en: "Basic understanding of human anatomy and physiology.",
       am: "የሰውነት አካል እና ፊዚዮሎጂ መረጃ መረዳት ያስፈልጋል።",
     },
-    link: "https://learning.acrossexpress.com/login#signup",
+    link: "",
   },
 
   {
