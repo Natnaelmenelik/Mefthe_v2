@@ -17,7 +17,7 @@ export const courses: CourseProps[] = [
   {
     id: 1,
     image: C1,
-    isAvailable: true,
+    isAvailable: false,
     instructor: {
       en: "Dr. MINTESNOT TSADIKU",
       am: "ዶ/ር ምንተስኖት ጻዲቁ",
@@ -30,7 +30,7 @@ export const courses: CourseProps[] = [
       en: "Learn effective, practical speech therapy techniques designed specifically for toddlers. Equip yourself with tools to support your child’s speech and language development.",
       am: "በተለይ ለታዳጊ ህጻናት የተነደፉ ውጤታማ እና ተግባራዊ የንግግር ህክምና ዘዴዎችን ይማሩ። የልጅዎን የንግግር እና የቋንቋ እድገትን የሚረዱ መሳሪያዎችን እራስዎን ያስታጥቁ።",
     },
-    date: { en: "7 Aug 2025", am: "1 ነሃሴ 2017" },
+    date: { en: "Soon", am: "በቅርቡ" },
     level: { en: "Beginner", am: "መጀመሪያ" },
     duration: { en: "4 weeks", am: "4 ሳምንታት" },
     requirements: {
