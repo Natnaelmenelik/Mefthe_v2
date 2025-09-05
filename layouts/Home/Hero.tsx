@@ -2,13 +2,13 @@ import { useTranslations } from "next-intl";
 // import MeftheIllus from "@/public/MeftheIllus.png";
 import HeroPic from "@/public/HeroPic.png";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+// import { Button } from "@/components/ui/button";
+// import {
+//   Accordion,
+//   AccordionContent,
+//   AccordionItem,
+//   AccordionTrigger,
+// } from "@/components/ui/accordion";
 import OneToOneDialog from "@/components/Dialog/AppDIalog";
 
 const Hero = () => {
@@ -26,10 +26,10 @@ const Hero = () => {
             </h1>
 
             <p className="text-center md:text-start text-lg xl:text-xl">
-              {t("description")}
+              {t("accContent")}
             </p>
 
-            <div id="accordion" className="-mt-5 -m">
+            {/* <div id="accordion" className="-mt-5 -m">
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="data-[state=open]:hidden [&>svg]:hidden w-full">
@@ -41,10 +41,10 @@ const Hero = () => {
                   <AccordionContent>
                     <p className="text-center md:text-start text-lg xl:text-xl mt-4 mb-4">
                       {t("accContent")}
-                    </p>
+                    </p> */}
 
-                    {/* SEE LESS Trigger (bottom of open content) */}
-                    <AccordionTrigger className="text-lg underline [&>svg]:hidden w-full">
+            {/* SEE LESS Trigger (bottom of open content) */}
+            {/* <AccordionTrigger className="text-lg underline [&>svg]:hidden w-full">
                       <span className="w-full text-xl md:text-lg font-normal block text-center md:text-start">
                         {t("seeLess")}...
                       </span>
@@ -52,17 +52,17 @@ const Hero = () => {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
-            </div>
+            </div> */}
 
             <div className="flex flex-col md:flex-row gap-3">
-              <a href="https://learning.acrossexpress.com/login#signup">
+              {/* <a href="https://learning.acrossexpress.com/login#signup">
                 <Button
                   variant="outline"
                   className="p-5 bg-white text-lg text-primary w-full md:w-40 font-semibold cursor-pointer"
                 >
                   {t("cta")}
                 </Button>
-              </a>
+              </a> */}
 
               {<OneToOneDialog />}
             </div>

@@ -35,7 +35,7 @@ const Footer = () => {
                 </h1>
               </div>
               <div className="w-full lg:max-w-[450px] space-y-4 md:ml-5">
-                <div className="flex items-center space-x-4">
+                <div className="flex justify-center md:justify-start items-center space-x-4">
                   <a href="https://t.me/Raphaphsiotherapy" target="blank">
                     <BsTelegram className="w-9 h-9" />
                   </a>

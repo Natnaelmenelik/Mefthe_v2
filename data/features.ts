@@ -7,8 +7,8 @@ export const features: FeatureProps[] = [
       am: "የቀጥታ ስርጭት ክፍለ ጊዜ መርሐግብር ያስይዙ",
     },
     description: {
-      en: "Need one-on-one support? Book a live appointment with our certified parenting experts for real-time guidance via phone or video call — at your convenience.",
-      am: "አንድ ለአንድ ድጋፍ ይፈልጋሉ? በስልክ ወይም በቪዲዮ ጥሪ በኩል ከተመሰከረላቸው የጤና ባለሙያዎች ጋር የቀጥታ ቀጠሮ ለእርስዎ በሚመች ሁኔታ ይያዙ።",
+      en: "Need one-on-one support? Book a live appointment with our certified experts for real-time guidance via phone or video call — at your convenience.",
+      am: "አንድ ለአንድ ድጋፍ ይፈልጋሉ? በስልክ ወይም በቪዲዮ ጥሪ በኩል ከተመሰከረላቸው የጤና ባለሙያዎች ጋር የቀጥታ ቀጠሮ ለእርስዎ በሚመች ሁኔታ አገልግሎቱን ያግኙ።",
     },
   },
 
@@ -34,15 +34,15 @@ export const features: FeatureProps[] = [
       am: "የትምህርት ትልቅ ተፅዕኖዎን የሚያመለክት እና እውቀትዎን የሚያረጋግጥ ምስክር ወረቀት ይቀበሉ።",
     },
   },
-  {
-    id: 4,
-    title: {
-      en: "AI-powered progress tracking",
-      am: "በ AI ላይ የተመሠረተ ትንታኔን በመጠቀም ግላዊ የመማሪያ ግንዛቤዎችን ያገኛሉ እና ማሻሻልዎን ይከታተላሉ።",
-    },
-    description: {
-      en: "Get personalized learning insights and track your improvement using AI-based analytics.",
-      am: "በAI መረጃ ትንተና የተመሰረተ ትምህርት እድገት በግል ደረጃ ይታያል እና የሚያንቀሳቀስ አሳሳቢ መረጃ ይደርስዎታል።",
-    },
-  },
+  // {
+  //   id: 4,
+  //   title: {
+  //     en: "AI-powered progress tracking",
+  //     am: "በ AI ላይ የተመሠረተ ትንታኔን በመጠቀም ግላዊ የመማሪያ ግንዛቤዎችን ያገኛሉ እና ማሻሻልዎን ይከታተላሉ።",
+  //   },
+  //   description: {
+  //     en: "Get personalized learning insights and track your improvement using AI-based analytics.",
+  //     am: "በAI መረጃ ትንተና የተመሰረተ ትምህርት እድገት በግል ደረጃ ይታያል እና የሚያንቀሳቀስ አሳሳቢ መረጃ ይደርስዎታል።",
+  //   },
+  // },
 ];

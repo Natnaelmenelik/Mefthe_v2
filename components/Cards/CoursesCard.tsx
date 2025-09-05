@@ -60,9 +60,9 @@ const CoursesCard = ({ course }: { course: Course }) => {
             <p className="text-sm mt-2 text-black font-light">
               - {t("instructor")}: {course.instructor[locale as "en" | "am"]}
             </p>
-            <p className="text-sm text-gray-500 mt-3">
+            {/* <p className="text-sm text-gray-500 mt-3">
               {course.courseDescription[locale as "en" | "am"]}
-            </p>
+            </p> */}
           </CardDescription>
         </CardHeader>
 

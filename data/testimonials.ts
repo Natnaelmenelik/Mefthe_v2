@@ -1,5 +1,5 @@
 import testimonial1 from "../public/testimonials/testimonial1.jpg";
-import testimonial2 from "../public/testimonials/testimonial2.jpg";
+// import testimonial2 from "../public/testimonials/testimonial2.jpg";
 import testimonial3 from "../public/testimonials/testimonial3.jpg";
 import { TestimonialProps } from "@/utils/types";
 
@@ -13,7 +13,7 @@ export const testimonials: TestimonialProps[] = [
     },
     testimony: {
       en: "Methe transformed the way I teach and learn physiotherapy. The simulations are incredibly lifelike.",
-      am: "መፍትሔ ፊዚዮቴራፒን የማስተምርበትን እና የምማርበትን መንገድ ለውጦታል። ምሳሌዎቹ በማይታመን ሁኔታ መሬት ጋር ካለው ጋር የሚመስሉ ናቸው።",
+      am: "መፍትሔ ፊዚዮቴራፒን የማስተምርበትን እና የምማርበትን መንገድ ለውጦታል። ምሳሌዎቹ በማይታመን ሁኔታ መሬት ጋር ካለው ጋር የሚጣጣሙ ናቸው።",
     },
     stars: 5,
     role: {
@@ -38,21 +38,21 @@ export const testimonials: TestimonialProps[] = [
       am: "ወላጅ",
     },
   },
-  {
-    id: 3,
-    image: testimonial2,
-    name: {
-      en: "Hanna Lemma",
-      am: "ሀና ለማ",
-    },
-    testimony: {
-      en: "I improved my clinical skills quickly using Methe. It’s a must-have platform for every physiotherapist.",
-      am: "መፍትሔ በመጠቀም የክሊኒካዊ ችሎታዬን በፍጥነት አሻሽያለሁ። ለእያንዳንዱ የፊዚዮቴራፒ ባለሙያም የግድ የምጋብዘው የመማሪያ መረብ ነው።",
-    },
-    stars: 5,
-    role: {
-      en: "Parent",
-      am: "ወላጅ",
-    },
-  },
+  // {
+  //   id: 3,
+  //   image: testimonial2,
+  //   name: {
+  //     en: "Hanna Lemma",
+  //     am: "ሀና ለማ",
+  //   },
+  //   testimony: {
+  //     en: "I improved my clinical skills quickly using Methe. It’s a must-have platform for every physiotherapist.",
+  //     am: "መፍትሔ በመጠቀም የክሊኒካዊ ችሎታዬን በፍጥነት አሻሽያለሁ። ለእያንዳንዱ የፊዚዮቴራፒ ባለሙያም የግድ የምጋብዘው የመማሪያ መረብ ነው።",
+  //   },
+  //   stars: 5,
+  //   role: {
+  //     en: "Parent",
+  //     am: "ወላጅ",
+  //   },
+  // },
 ];

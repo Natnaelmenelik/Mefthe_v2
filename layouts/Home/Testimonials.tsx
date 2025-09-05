@@ -11,7 +11,7 @@ const Testimonials = () => {
             {t("title")}
           </h1>
 
-          <p className="mt-8 text-center text-lg">{t("description")}</p>
+          {/* <p className="mt-8 text-center text-lg">{t("description")}</p> */}
 
           <div className="mt-10">
             <TestimonialCarousel />

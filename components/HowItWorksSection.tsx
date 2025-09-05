@@ -1,5 +1,5 @@
 import StepOne from "@/public/steps/StepOne.png";
-import StepTwo from "@/public/steps/StepTwo.png";
+// import StepTwo from "@/public/steps/StepTwo.png";
 import StepThree from "@/public/steps/StepThreee.png";
 import { useTranslations } from "next-intl";
 import Image, { StaticImageData } from "next/image";
@@ -33,17 +33,17 @@ const HowItWorksSection = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
         <StepCard
           img={StepOne}
           title={t("stepOne.title")}
           desc={t("stepOne.description")}
         />
-        <StepCard
+        {/* <StepCard
           img={StepTwo}
           title={t("stepTwo.title")}
           desc={t("stepTwo.description")}
-        />
+        /> */}
         <StepCard
           img={StepThree}
           title={t("stepThree.title")}

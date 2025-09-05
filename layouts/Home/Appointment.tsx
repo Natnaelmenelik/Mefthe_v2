@@ -15,7 +15,7 @@ const Appointment = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-primary">
               🤝 {t("title")}
             </h2>
-            <p className="text-lg text-gray-600">{t("description")}</p>
+            {/* <p className="text-lg text-gray-600">{t("description")}</p> */}
             <ul className="text-lg text-gray-700 space-y-2">
               <li>
                 🧠 <strong>{t("points.certified")}</strong>
