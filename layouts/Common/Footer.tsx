@@ -22,7 +22,9 @@ const Footer = () => {
               <div className="w-full lg:max-w-[450px] space-y-4 md:ml-5">
                 <p>{t("consultation")}</p>
                 <a href="https://raphaphysiotherapy.com/" target="blank">
-                  <Button variant={"outline"}>{t("consultationButton")}</Button>
+                  <Button variant={"outline"} className="w-full md:w-44">
+                    {t("consultationButton")}
+                  </Button>
                 </a>
               </div>
             </div>
@@ -30,7 +32,7 @@ const Footer = () => {
             {/* Lower Side */}
             <div className="flex flex-col md:flex-row gap-8 ">
               <div className="w-full">
-                <h1 className="text-5xl md:text-4xl lg:text-5xl font-bold text-primary">
+                <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold text-primary text-center md:text-start">
                   {t("title")}
                 </h1>
               </div>
